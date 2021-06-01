@@ -1,0 +1,62 @@
+body, html {
+    background-color: wheat;
+}
+
+.navbar {
+    background-color: rgb(34, 33, 33);
+    min-height: unset;
+    height: 8.25rem;
+    margin-bottom: 6px;
+}
+
+.navbar-item {
+    height: 4rem;
+}
+
+#blogs {
+   border:black;
+   border-style: solid;
+   border-width:thick;
+   margin: 5px;
+}
+
+a {
+    color:white
+}
+
+.custom-flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+.nameDate {
+    display: flex;
+    float: right;
+}
+
+p {
+    margin-top: 5px;
+}
+
+#comments {
+    border:black;
+    border-style: solid;
+    border-width:thick;
+    margin: 5px;
+    padding: auto;
+ }
+
+ #commentBtn, #commentText {
+    display: block;
+ }
+
+ #commentText {
+     width: 300px;
+     margin-bottom: 5px;
+     margin-left: 5px;
+ }
+
+.deleteCommentBtns {
+    margin-bottom: 5px;
+}

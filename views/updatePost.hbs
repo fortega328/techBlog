@@ -1,0 +1,52 @@
+<form class="container mt-5 py-3 bg-555 has-text-dark">
+    <div class="field is-horizontal">
+        <div class="field-label is-normal">
+            <label for="postTitle" class="label has-text-dark">
+                Title</label>
+        </div>
+        <div class="field-body">
+            <div class="field">
+                <p class="control mr-5">
+                    <textarea id="postTitle" class="input" type="text">{{post.title}}</textarea>
+                    <span class="icon is-small is-left">
+                    </span>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="field is-horizontal">
+        <div class="field-label is-normal">
+            <label for="postDescription" class="label has-text-dark">Description</label>
+        </div>
+        <div class="field-body">
+            <div class="field">
+                <div class="control mr-5">
+                    <textarea id="postDescription" class="textarea"
+                        placeholder="Enter description">{{post.description}}</textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="field is-horizontal">
+        <div class="field-label">
+
+        </div>
+        <div class="field-body">
+            <div class="field">
+                <div class="control">
+                    <button id="updateSave" data-post={{post.id}} class="button is-primary">
+                        <span class="icon is-small">
+                            <i class="fas fa-check"></i>
+                        </span>
+                        <span>Save</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script src="/JS/script.js"></script>

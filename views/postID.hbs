@@ -1,0 +1,31 @@
+<h1>
+    <h2 class="has-text-centered is-size-2">
+
+    </h2>
+    <div>
+        <div class="column" id="blogs">
+            <span class="nameDate"> Posted By:
+                {{post.user.first_name}} {{post.user.last_name}} on {{format_date post.created_at}}</span>
+            <h1 id="blog-title"><strong>{{post.title}}</strong></h1>
+            <p>{{post.description}}</p>
+            <button class="button is-success"><a href='/updatePost/{{post.id}}'>Update this Blog</a></button>
+        </div>
+    </div>
+</h1>
+{{> comments post.comments}}
+{{#if loggedIn}}
+<form class="comment-form">
+    <div class="custom-flex" id="commentBox">
+        <div>
+            <textarea id="commentText" placeholder="Enter comment here."></textarea>
+            <div class="custom-flex">
+                <button id="commentBtn" class="button is-success" data-id={{post.id}}>Submit New
+                    Comment</button>
+            </div>
+        </div>
+    </div>
+</form>
+<script src="/JS/comment.js"></script>
+{{/if}}
+
+<script src="/JS/script.js"></script>

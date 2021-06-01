@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "comment_text": "Test comment from frank",
+        "user_id": 1,
+        "posts_id": 1
+    },
+    {
+        "id": 2,
+        "comment_text": "Test comment from Freddy",
+        "user_id": 2,
+        "posts_id": 1
+    },
+    {
+        "id": 3,
+        "comment_text": "Test comment 2 from frank",
+        "user_id": 1,
+        "posts_id": 2
+    },
+    {
+        "id": 4,
+        "comment_text": "Test comment 2 from Freddy",
+        "user_id": 2,
+        "posts_id": 2
+    }
+]
