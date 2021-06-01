@@ -28,7 +28,7 @@
   ## License 
 
   ## MIT
-    `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+   ![License Badge](https://img.shields.io/static/v1?label=License&message=None&color=blue)
   ## Preview
 
   Link to deployed App: 
