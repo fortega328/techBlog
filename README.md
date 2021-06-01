@@ -28,7 +28,8 @@
   ## License 
 
   ## MIT
-   ![License Badge](https://img.shields.io/static/v1?label=License&message=None&color=blue)
+  ![License MIT](https://img.shields.io/badge/license-MIT-blue)
+  
   ## Preview
 
   Link to deployed App: 
