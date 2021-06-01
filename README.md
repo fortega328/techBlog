@@ -28,10 +28,10 @@
   ## License 
 
   ## MIT
-     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+    `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   ## Preview
 
-  Link to deployed App: https://ancient-reaches-78178.herokuapp.com/
+  Link to deployed App: 
 
   Preview of Home Page <br>
   ![Preview](./public/assets/homepage.png)
