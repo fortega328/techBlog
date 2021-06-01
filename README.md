@@ -29,13 +29,16 @@
 
   ## MIT
   ![License MIT](https://img.shields.io/badge/license-MIT-blue)
-  
+
   ## Preview
 
   Link to deployed App: 
 
   Preview of Home Page <br>
   ![Preview](./public/assets/homepage.png)
+  Video of app
+  [link](https://youtu.be/3TygAjk16Rc)
+
 
   ## Questions 
   Email me fortega328@github.com
